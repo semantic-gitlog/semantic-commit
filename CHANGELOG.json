@@ -1,0 +1,90 @@
+{
+  "nextVersion" : {
+    "major" : 0,
+    "minor" : 5,
+    "patch" : 0,
+    "preReleaseParts" : [ "SNAPSHOT" ],
+    "buildMetaDataParts" : [ ],
+    "preRelease" : "SNAPSHOT",
+    "buildMetaData" : "",
+    "initialDevelopment" : true,
+    "stable" : false
+  },
+  "lastVersion" : {
+    "major" : 0,
+    "minor" : 4,
+    "patch" : 0,
+    "preReleaseParts" : [ ],
+    "buildMetaDataParts" : [ ],
+    "preRelease" : "",
+    "buildMetaData" : "",
+    "initialDevelopment" : true,
+    "stable" : true
+  },
+  "tags" : [ {
+    "version" : null,
+    "releaseDate" : null,
+    "sections" : [ {
+      "title" : "Features",
+      "commits" : [ {
+        "hashFull" : "a678f59411fecadc36536e8c399b0c1a9179157b",
+        "hash" : "a678f59411fecad",
+        "hash7" : "a678f59",
+        "hash8" : "a678f594",
+        "commitTime" : "2020-03-28 09:13:53.000 +0000",
+        "commitTimeLong" : 1585386833,
+        "message" : "feat(parser): implement primary features and challenges\n\n------------\n# Locales\n- **[zh-cn]** 实现主要功能\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2020-03-28 05:57:41.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2020-03-28 09:13:53.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ {
+          "commitHash" : "a678f59411fecadc36536e8c399b0c1a9179157b",
+          "lang" : "zh-cn",
+          "commitType" : null,
+          "commitScope" : null,
+          "subject" : "实现主要功能"
+        } ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/ymind/semantic-commit/commit/a678f59411fecadc36536e8c399b0c1a9179157b",
+        "commitType" : "feat",
+        "commitPackage" : null,
+        "commitScope" : "parser",
+        "commitSubject" : "implement primary features and challenges",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "commitIssue" : null,
+        "localeMap" : {
+          "zh-cn" : {
+            "commitHash" : "a678f59411fecadc36536e8c399b0c1a9179157b",
+            "lang" : "zh-cn",
+            "commitType" : null,
+            "commitScope" : null,
+            "subject" : "实现主要功能"
+          }
+        },
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "feat",
+        "rawCommitScope" : "parser",
+        "rawCommitSubject" : "implement primary features and challenges",
+        "messageTitle" : "feat(parser): implement primary features and challenges",
+        "messageBody" : "------------\n# Locales\n- **[zh-cn]** 实现主要功能"
+      } ]
+    } ]
+  } ]
+}

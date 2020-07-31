@@ -173,9 +173,6 @@ task setVersion {
 
 changelog {
     toRef = "master"
-    isUnstable = true
-    preRelease = 'SNAPSHOT'
-    lastVersion = '0.4.0'
 
     jsonFile = file("${project.rootDir}/CHANGELOG.json")
     fileSets = [
@@ -199,13 +196,12 @@ changelog {
     issueUrlTemplate = "https://github.com/ymind/semantic-commit/issues/:issueId"
     commitUrlTemplate = "https://github.com/ymind/semantic-commit/commit/:commitId"
     mentionUrlTemplate = "https://github.com/:username"
+
+    outputs.upToDateWhen { false }
 }
 
 derive {
     toRef = "master"
-    isUnstable = true
-    preRelease = 'SNAPSHOT'
-    lastVersion = '0.4.0'
     derivedVersionMark = "NEXT_VERSION:=="
 
     commitLocales = [
@@ -216,4 +212,6 @@ derive {
         "en"   : file("${project.rootDir}/config/gitlog/commit-scopes.md"),
         "zh-cn": file("${project.rootDir}/config/gitlog/commit-scopes.zh-cn.md")
     ]
+
+    outputs.upToDateWhen { false }
 }

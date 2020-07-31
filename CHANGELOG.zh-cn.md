@@ -1,8 +1,30 @@
 # 更新日志
 
-## 0.5.0-SNAPSHOT (Unreleased, 2020-03-28)
+## 0.5.7 (Unreleased, 2020-07-31)
 
-### Features
+### Styles
 
-- **解析器**: 实现主要功能 ([a678f594](https://github.com/ymind/semantic-commit/commit/a678f59411fecadc36536e8c399b0c1a9179157b))
+- ****: update .editorconfig, disable .mustache file indent ([255fe7a2](https://github.com/semantic-gitlog/semantic-commit/commit/255fe7a291eeda2ef9fa3001e89c8f6d8c572277))
+
+
+### Build System
+
+- **配置**: 从 CHANGELOG 模板中移除 'Unreleased' 标记 ([83c2bf08](https://github.com/semantic-gitlog/semantic-commit/commit/83c2bf08b7be329c50da034427fdc0c9093fe2cf))
+- **配置**: update gitlog config ([d73a4c2c](https://github.com/semantic-gitlog/semantic-commit/commit/d73a4c2c906c4535f9256c62dfad2b8f5c3d85b5))
+- **依赖项**: bump team.yi.semantic-gitlog from 0.4.1.1 to 0.5.3 ([cc0e8280](https://github.com/semantic-gitlog/semantic-commit/commit/cc0e828010f39e26a05c3354c0eeaf962167143f))
+- **依赖项**: bump io.freefair.lombok from 4.1.6 to 5.1.0 ([c4e758a9](https://github.com/semantic-gitlog/semantic-commit/commit/c4e758a9b861f67ac152945f6c5e9a2a456ab7c7))
+- **依赖项**: bump junit-jupiter from 5.6.1 to 5.6.2 ([3cd77120](https://github.com/semantic-gitlog/semantic-commit/commit/3cd77120f0a101cf21a86411716a1bee524b5770))
+- **依赖项**: bump commons-lang3 from 3.9 to 3.11 ([cde1677e](https://github.com/semantic-gitlog/semantic-commit/commit/cde1677eebbb9b7b19ae9fd5fa4a3a1330cc35b8))
+- **依赖项**: bump gradle-wrapper from 6.3 to 6.5.1 ([bc21b274](https://github.com/semantic-gitlog/semantic-commit/commit/bc21b27492af976c4e2caaa5529de8a43921cb29))
+
+
+### Continuous Integration
+
+- ****: add github workflows ([081d3924](https://github.com/semantic-gitlog/semantic-commit/commit/081d3924f7c825535dd40cb6d52d57c318c2deff))
+- ****: delete git pushback ([ae49953b](https://github.com/semantic-gitlog/semantic-commit/commit/ae49953b2b8c9c31486b0d05814e421e5aaa0284))
+
+
+## 0.5.0 (2020-03-28)
+
+暂无更新说明。
 

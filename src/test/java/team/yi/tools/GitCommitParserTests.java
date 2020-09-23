@@ -4,19 +4,14 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.DateUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import team.yi.tools.semanticcommit.model.GitCommit;
-import team.yi.tools.semanticcommit.model.GitDate;
-import team.yi.tools.semanticcommit.model.GitPersonIdent;
-import team.yi.tools.semanticcommit.model.ReleaseCommit;
+import team.yi.tools.semanticcommit.model.*;
 import team.yi.tools.semanticcommit.parser.CommitParser;
 import team.yi.tools.semanticcommit.parser.CommitParserSettings;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
 import java.text.ParseException;
 import java.util.Date;
 
@@ -42,9 +37,8 @@ public class GitCommitParserTests {
         final GitPersonIdent committerIdent = new GitPersonIdent(commitTime, "ymind", "ymind.chan@yi.team");
         final String hashFull = "02ce19bbbf7058f474f760fe4a4447301190dea9";
         final String message = new String(Files.readAllBytes(path), UTF_8).trim();
-        final Boolean isMerge = false;
 
-        final GitCommit gitCommit = new GitCommit(hashFull, commitTime, message, isMerge, authorIdent, committerIdent);
+        final GitCommit gitCommit = new GitCommit(hashFull, commitTime, message, false, authorIdent, committerIdent);
         final CommitParserSettings settings = CommitParserSettings.builder().build();
 
         this.parser = new CommitParser(settings, gitCommit);

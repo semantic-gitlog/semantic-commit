@@ -9,9 +9,7 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 @SuppressWarnings("PMD.TooManyMethods")
 public abstract class Lexer {
@@ -123,6 +121,7 @@ public abstract class Lexer {
         }
     }
 
+    @SuppressWarnings("SameParameterValue")
     protected final Token createToken(final TokenKind kind, final char value) {
         return this.createToken(kind, String.valueOf(value));
     }
@@ -190,6 +189,7 @@ public abstract class Lexer {
         return this.createToken(hasDot ? TokenKind.numberDouble : TokenKind.numberInteger);
     }
 
+    @SuppressWarnings("SameParameterValue")
     protected final String pick(final int start, final int maxLength) {
         int i = start;
         final StringBuilder b = new StringBuilder();
@@ -213,6 +213,7 @@ public abstract class Lexer {
         return pickWhitespace(start, Integer.MAX_VALUE);
     }
 
+    @SuppressWarnings("SameParameterValue")
     protected final String pickWhitespace(final int start, final int maxLength) {
         int i = start;
         final StringBuilder b = new StringBuilder();
@@ -236,6 +237,7 @@ public abstract class Lexer {
         return pickNumberInteger(start, Integer.MAX_VALUE);
     }
 
+    @SuppressWarnings("SameParameterValue")
     protected final String pickNumberInteger(final int start, final int maxLength) {
         int i = start;
         final StringBuilder b = new StringBuilder();

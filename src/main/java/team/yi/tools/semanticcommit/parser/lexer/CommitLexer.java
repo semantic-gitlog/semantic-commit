@@ -30,7 +30,7 @@ public class CommitLexer extends Lexer {
         this(new String(Files.readAllBytes(file.toPath()), charset).trim(), closeIssueActions);
     }
 
-    public CommitLexer(final String contents, final List<String> closeIssueActions) throws IOException {
+    public CommitLexer(final String contents, final List<String> closeIssueActions) {
         super(contents);
 
         this.closeIssueActions = closeIssueActions;

@@ -21,7 +21,7 @@ public class CommitLocaleLexer extends Lexer {
         super(file, charset);
     }
 
-    public CommitLocaleLexer(final String contents) throws IOException {
+    public CommitLocaleLexer(final String contents) {
         super(contents);
     }
 

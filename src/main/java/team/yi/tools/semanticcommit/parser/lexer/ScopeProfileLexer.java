@@ -23,7 +23,7 @@ public class ScopeProfileLexer extends Lexer {
         super(file, charset);
     }
 
-    public ScopeProfileLexer(final String contents) throws IOException {
+    public ScopeProfileLexer(final String contents) {
         super(contents);
     }
 

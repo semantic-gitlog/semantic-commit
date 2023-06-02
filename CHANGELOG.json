@@ -2,7 +2,7 @@
   "nextVersion" : {
     "major" : 0,
     "minor" : 5,
-    "patch" : 19,
+    "patch" : 18,
     "preReleaseParts" : [ ],
     "buildMetaDataParts" : [ ],
     "preRelease" : "",
@@ -25,23 +25,23 @@
     "version" : null,
     "releaseDate" : null,
     "sections" : [ {
-      "title" : "Build System",
+      "title" : "Styles",
       "commits" : [ {
-        "hashFull" : "9469b81a1fd0be5281afbc53ad303b67d042066f",
-        "hash" : "9469b81a1fd0be5",
-        "hash7" : "9469b81",
-        "hash8" : "9469b81a",
-        "commitTime" : "2023-06-02 10:14:28.000 +0800",
-        "commitTimeLong" : 1685672068,
-        "message" : "build(deps): bump gradle-wrapper from 6.3 to 6.5.1\n",
+        "hashFull" : "fd0a4bbd3b84e9da3ef4c22ecdfd3979f1b467a6",
+        "hash" : "fd0a4bbd3b84e9d",
+        "hash7" : "fd0a4bb",
+        "hash8" : "fd0a4bbd",
+        "commitTime" : "2023-06-02 11:01:59.000 +0800",
+        "commitTimeLong" : 1685674919,
+        "message" : "style: code cleanup\n",
         "merge" : false,
         "authorIdent" : {
-          "when" : "2023-06-02 10:14:28.000 +0800",
+          "when" : "2023-06-02 11:01:59.000 +0800",
           "name" : "ymind",
           "email" : "ymind.chan@yi.team"
         },
         "committerIdent" : {
-          "when" : "2023-06-02 10:14:28.000 +0800",
+          "when" : "2023-06-02 11:01:59.000 +0800",
           "name" : "ymind",
           "email" : "ymind.chan@yi.team"
         },
@@ -52,31 +52,34 @@
         "mentions" : [ ],
         "locales" : [ ],
         "defaultLang" : "en",
-        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/9469b81a1fd0be5281afbc53ad303b67d042066f",
-        "commitType" : "build",
+        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/fd0a4bbd3b84e9da3ef4c22ecdfd3979f1b467a6",
+        "commitType" : "style",
         "commitPackage" : null,
-        "commitScope" : "deps",
-        "commitSubject" : "bump gradle-wrapper from 6.3 to 6.5.1",
+        "commitScope" : null,
+        "commitSubject" : "code cleanup",
         "commitBody" : null,
         "attention" : false,
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
+        "rawCommitType" : "style",
         "localeMap" : null,
-        "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitSubject" : "bump gradle-wrapper from 6.3 to 6.5.1",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump gradle-wrapper from 6.3 to 6.5.1"
-      }, {
-        "hashFull" : "1e44bb54966a2a33e131aad77f6cd4c5881e354b",
-        "hash" : "1e44bb54966a2a3",
-        "hash7" : "1e44bb5",
-        "hash8" : "1e44bb54",
-        "commitTime" : "2023-06-02 10:20:03.000 +0800",
-        "commitTimeLong" : 1685672403,
+        "rawCommitScope" : null,
+        "rawCommitSubject" : "code cleanup",
+        "messageTitle" : "style: code cleanup",
+        "messageBody" : ""
+      } ]
+    }, {
+      "title" : "Build System",
+      "commits" : [ {
+        "hashFull" : "f51c227c2bf904646a36378b94aa03fc49e23409",
+        "hash" : "f51c227c2bf9046",
+        "hash7" : "f51c227",
+        "hash8" : "f51c227c",
+        "commitTime" : "2023-06-02 10:55:06.000 +0800",
+        "commitTimeLong" : 1685674506,
         "message" : "build(deps): bump io.freefair.lombok from 5.2.1 to 5.3.3.3\n",
         "merge" : false,
         "authorIdent" : {
@@ -85,7 +88,7 @@
           "email" : "ymind.chan@yi.team"
         },
         "committerIdent" : {
-          "when" : "2023-06-02 10:20:03.000 +0800",
+          "when" : "2023-06-02 10:55:06.000 +0800",
           "name" : "ymind",
           "email" : "ymind.chan@yi.team"
         },
@@ -96,7 +99,7 @@
         "mentions" : [ ],
         "locales" : [ ],
         "defaultLang" : "en",
-        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/1e44bb54966a2a33e131aad77f6cd4c5881e354b",
+        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/f51c227c2bf904646a36378b94aa03fc49e23409",
         "commitType" : "build",
         "commitPackage" : null,
         "commitScope" : "deps",
@@ -106,21 +109,21 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump io.freefair.lombok from 5.2.1 to 5.3.3.3",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump io.freefair.lombok from 5.2.1 to 5.3.3.3"
+        "messageTitle" : "build(deps): bump io.freefair.lombok from 5.2.1 to 5.3.3.3",
+        "messageBody" : ""
       }, {
-        "hashFull" : "5e46bd58aa3198c02e62d900dc0b515cfc2bc55a",
-        "hash" : "5e46bd58aa3198c",
-        "hash7" : "5e46bd5",
-        "hash8" : "5e46bd58",
-        "commitTime" : "2023-06-02 10:35:42.000 +0800",
-        "commitTimeLong" : 1685673342,
+        "hashFull" : "d33b2af0c771b23d8e74ccff290d6c6d46188bcc",
+        "hash" : "d33b2af0c771b23",
+        "hash7" : "d33b2af",
+        "hash8" : "d33b2af0",
+        "commitTime" : "2023-06-02 10:55:06.000 +0800",
+        "commitTimeLong" : 1685674506,
         "message" : "build(deps): bump commons-lang3 from 3.11 to 3.12.0\n",
         "merge" : false,
         "authorIdent" : {
@@ -129,7 +132,7 @@
           "email" : "ymind.chan@yi.team"
         },
         "committerIdent" : {
-          "when" : "2023-06-02 10:35:42.000 +0800",
+          "when" : "2023-06-02 10:55:06.000 +0800",
           "name" : "ymind",
           "email" : "ymind.chan@yi.team"
         },
@@ -140,7 +143,7 @@
         "mentions" : [ ],
         "locales" : [ ],
         "defaultLang" : "en",
-        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/5e46bd58aa3198c02e62d900dc0b515cfc2bc55a",
+        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/d33b2af0c771b23d8e74ccff290d6c6d46188bcc",
         "commitType" : "build",
         "commitPackage" : null,
         "commitScope" : "deps",
@@ -150,109 +153,21 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump commons-lang3 from 3.11 to 3.12.0",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump commons-lang3 from 3.11 to 3.12.0"
+        "messageTitle" : "build(deps): bump commons-lang3 from 3.11 to 3.12.0",
+        "messageBody" : ""
       }, {
-        "hashFull" : "97a2492160e3386fa2f01ac56f825f194d1e361c",
-        "hash" : "97a2492160e3386",
-        "hash7" : "97a2492",
-        "hash8" : "97a24921",
-        "commitTime" : "2023-06-02 10:40:00.000 +0800",
-        "commitTimeLong" : 1685673600,
-        "message" : "build(deps): bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17\n",
-        "merge" : false,
-        "authorIdent" : {
-          "when" : "2023-06-02 10:36:33.000 +0800",
-          "name" : "ymind",
-          "email" : "ymind.chan@yi.team"
-        },
-        "committerIdent" : {
-          "when" : "2023-06-02 10:40:00.000 +0800",
-          "name" : "ymind",
-          "email" : "ymind.chan@yi.team"
-        },
-        "quickActions" : { },
-        "closeIssues" : [ ],
-        "subjectIssues" : [ ],
-        "bodyIssues" : [ ],
-        "mentions" : [ ],
-        "locales" : [ ],
-        "defaultLang" : "en",
-        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/97a2492160e3386fa2f01ac56f825f194d1e361c",
-        "commitType" : "build",
-        "commitPackage" : null,
-        "commitScope" : "deps",
-        "commitSubject" : "bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17",
-        "commitBody" : null,
-        "attention" : false,
-        "breakingChange" : false,
-        "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : null,
-        "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
-        "firstLocaleCommitType" : null,
-        "firstLocaleCommitScope" : null,
-        "rawCommitSubject" : "bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17"
-      }, {
-        "hashFull" : "8a899add065f5aab8a68f21b8283b044c97bdddf",
-        "hash" : "8a899add065f5aa",
-        "hash7" : "8a899ad",
-        "hash8" : "8a899add",
-        "commitTime" : "2023-06-02 10:40:00.000 +0800",
-        "commitTimeLong" : 1685673600,
-        "message" : "build(deps): bump slf4j from 1.7.30 to 2.0.7\n",
-        "merge" : false,
-        "authorIdent" : {
-          "when" : "2023-06-02 10:37:58.000 +0800",
-          "name" : "ymind",
-          "email" : "ymind.chan@yi.team"
-        },
-        "committerIdent" : {
-          "when" : "2023-06-02 10:40:00.000 +0800",
-          "name" : "ymind",
-          "email" : "ymind.chan@yi.team"
-        },
-        "quickActions" : { },
-        "closeIssues" : [ ],
-        "subjectIssues" : [ ],
-        "bodyIssues" : [ ],
-        "mentions" : [ ],
-        "locales" : [ ],
-        "defaultLang" : "en",
-        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/8a899add065f5aab8a68f21b8283b044c97bdddf",
-        "commitType" : "build",
-        "commitPackage" : null,
-        "commitScope" : "deps",
-        "commitSubject" : "bump slf4j from 1.7.30 to 2.0.7",
-        "commitBody" : null,
-        "attention" : false,
-        "breakingChange" : false,
-        "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : null,
-        "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
-        "firstLocaleCommitType" : null,
-        "firstLocaleCommitScope" : null,
-        "rawCommitSubject" : "bump slf4j from 1.7.30 to 2.0.7",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump slf4j from 1.7.30 to 2.0.7"
-      }, {
-        "hashFull" : "4d0d77f7206ec9be1f97ef101b24a8ce6712953f",
-        "hash" : "4d0d77f7206ec9b",
-        "hash7" : "4d0d77f",
-        "hash8" : "4d0d77f7",
-        "commitTime" : "2023-06-02 10:40:00.000 +0800",
-        "commitTimeLong" : 1685673600,
+        "hashFull" : "8734ef9789f4c98652a818ecf1a91846903cde70",
+        "hash" : "8734ef9789f4c98",
+        "hash7" : "8734ef9",
+        "hash8" : "8734ef97",
+        "commitTime" : "2023-06-02 10:55:06.000 +0800",
+        "commitTimeLong" : 1685674506,
         "message" : "build(deps): bump junit-jupiter from 5.7.0 to 5.9.3\n",
         "merge" : false,
         "authorIdent" : {
@@ -261,7 +176,7 @@
           "email" : "ymind.chan@yi.team"
         },
         "committerIdent" : {
-          "when" : "2023-06-02 10:40:00.000 +0800",
+          "when" : "2023-06-02 10:55:06.000 +0800",
           "name" : "ymind",
           "email" : "ymind.chan@yi.team"
         },
@@ -272,7 +187,7 @@
         "mentions" : [ ],
         "locales" : [ ],
         "defaultLang" : "en",
-        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/4d0d77f7206ec9be1f97ef101b24a8ce6712953f",
+        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/8734ef9789f4c98652a818ecf1a91846903cde70",
         "commitType" : "build",
         "commitPackage" : null,
         "commitScope" : "deps",
@@ -282,14 +197,102 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump junit-jupiter from 5.7.0 to 5.9.3",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump junit-jupiter from 5.7.0 to 5.9.3"
+        "messageTitle" : "build(deps): bump junit-jupiter from 5.7.0 to 5.9.3",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "42554c02c633b149f037665b1550670ae0f4e4c3",
+        "hash" : "42554c02c633b14",
+        "hash7" : "42554c0",
+        "hash8" : "42554c02",
+        "commitTime" : "2023-06-02 10:55:06.000 +0800",
+        "commitTimeLong" : 1685674506,
+        "message" : "build(deps): bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2023-06-02 10:36:33.000 +0800",
+          "name" : "ymind",
+          "email" : "ymind.chan@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2023-06-02 10:55:06.000 +0800",
+          "name" : "ymind",
+          "email" : "ymind.chan@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/42554c02c633b149f037665b1550670ae0f4e4c3",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "deps",
+        "commitSubject" : "bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "commitIssue" : null,
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
+        "rawCommitSubject" : "bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17",
+        "messageTitle" : "build(deps): bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "3aa43ad662e335a09301291d83b780a50c19cc43",
+        "hash" : "3aa43ad662e335a",
+        "hash7" : "3aa43ad",
+        "hash8" : "3aa43ad6",
+        "commitTime" : "2023-06-02 10:55:06.000 +0800",
+        "commitTimeLong" : 1685674506,
+        "message" : "build(deps): bump slf4j from 1.7.30 to 2.0.7\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2023-06-02 10:37:58.000 +0800",
+          "name" : "ymind",
+          "email" : "ymind.chan@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2023-06-02 10:55:06.000 +0800",
+          "name" : "ymind",
+          "email" : "ymind.chan@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/semantic-commit/commit/3aa43ad662e335a09301291d83b780a50c19cc43",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "deps",
+        "commitSubject" : "bump slf4j from 1.7.30 to 2.0.7",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "commitIssue" : null,
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
+        "rawCommitSubject" : "bump slf4j from 1.7.30 to 2.0.7",
+        "messageTitle" : "build(deps): bump slf4j from 1.7.30 to 2.0.7",
+        "messageBody" : ""
       } ]
     } ]
   }, {
@@ -343,14 +346,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "style",
-        "rawCommitScope" : "editorconfig",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "editorconfig",
         "rawCommitSubject" : "update .editorconfig, disable .mustache file indent",
-        "messageBody" : "",
-        "messageTitle" : "style(editorconfig): update .editorconfig, disable .mustache file indent"
+        "messageTitle" : "style(editorconfig): update .editorconfig, disable .mustache file indent",
+        "messageBody" : ""
       }, {
         "hashFull" : "c811e0d5c80362e485c89fe3169c5608a5512c56",
         "hash" : "c811e0d5c80362e",
@@ -387,14 +390,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "style",
-        "rawCommitScope" : null,
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : null,
         "rawCommitSubject" : "code cleanup",
-        "messageBody" : "",
-        "messageTitle" : "style: code cleanup"
+        "messageTitle" : "style: code cleanup",
+        "messageBody" : ""
       } ]
     }, {
       "title" : "Build System",
@@ -440,6 +443,7 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
+        "rawCommitType" : "build",
         "localeMap" : {
           "zh-cn" : {
             "commitHash" : "83c2bf08b7be329c50da034427fdc0c9093fe2cf",
@@ -449,13 +453,12 @@
             "subject" : "从 CHANGELOG 模板中移除 'Unreleased' 标记"
           }
         },
-        "rawCommitType" : "build",
-        "rawCommitScope" : "config",
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "config",
         "rawCommitSubject" : "remove 'Unreleased' label form CHANGELOG template",
-        "messageBody" : "------------\n# Locales\n- **[zh-cn]** 从 CHANGELOG 模板中移除 'Unreleased' 标记",
-        "messageTitle" : "build(config): remove 'Unreleased' label form CHANGELOG template"
+        "messageTitle" : "build(config): remove 'Unreleased' label form CHANGELOG template",
+        "messageBody" : "------------\n# Locales\n- **[zh-cn]** 从 CHANGELOG 模板中移除 'Unreleased' 标记"
       }, {
         "hashFull" : "d73a4c2c906c4535f9256c62dfad2b8f5c3d85b5",
         "hash" : "d73a4c2c906c453",
@@ -492,14 +495,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "config",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "config",
         "rawCommitSubject" : "update gitlog config",
-        "messageBody" : "",
-        "messageTitle" : "build(config): update gitlog config"
+        "messageTitle" : "build(config): update gitlog config",
+        "messageBody" : ""
       }, {
         "hashFull" : "cc0e828010f39e26a05c3354c0eeaf962167143f",
         "hash" : "cc0e828010f39e2",
@@ -536,14 +539,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump team.yi.semantic-gitlog from 0.4.1.1 to 0.5.3",
-        "messageBody" : "Bumps team.yi.semantic-gitlog from 0.4.1.1 to 0.5.3.\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>",
-        "messageTitle" : "build(deps): bump team.yi.semantic-gitlog from 0.4.1.1 to 0.5.3"
+        "messageTitle" : "build(deps): bump team.yi.semantic-gitlog from 0.4.1.1 to 0.5.3",
+        "messageBody" : "Bumps team.yi.semantic-gitlog from 0.4.1.1 to 0.5.3.\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>"
       }, {
         "hashFull" : "c4e758a9b861f67ac152945f6c5e9a2a456ab7c7",
         "hash" : "c4e758a9b861f67",
@@ -580,14 +583,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump io.freefair.lombok from 4.1.6 to 5.1.0",
-        "messageBody" : "Bumps io.freefair.lombok from 4.1.6 to 5.1.0.\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>",
-        "messageTitle" : "build(deps): bump io.freefair.lombok from 4.1.6 to 5.1.0"
+        "messageTitle" : "build(deps): bump io.freefair.lombok from 4.1.6 to 5.1.0",
+        "messageBody" : "Bumps io.freefair.lombok from 4.1.6 to 5.1.0.\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>"
       }, {
         "hashFull" : "3cd77120f0a101cf21a86411716a1bee524b5770",
         "hash" : "3cd77120f0a101c",
@@ -624,14 +627,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump junit-jupiter from 5.6.1 to 5.6.2",
-        "messageBody" : "Bumps [junit-jupiter](https://github.com/junit-team/junit5) from 5.6.1 to 5.6.2.\n- [Release notes](https://github.com/junit-team/junit5/releases)\n- [Commits](https://github.com/junit-team/junit5/compare/r5.6.1...r5.6.2)\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>",
-        "messageTitle" : "build(deps): bump junit-jupiter from 5.6.1 to 5.6.2"
+        "messageTitle" : "build(deps): bump junit-jupiter from 5.6.1 to 5.6.2",
+        "messageBody" : "Bumps [junit-jupiter](https://github.com/junit-team/junit5) from 5.6.1 to 5.6.2.\n- [Release notes](https://github.com/junit-team/junit5/releases)\n- [Commits](https://github.com/junit-team/junit5/compare/r5.6.1...r5.6.2)\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>"
       }, {
         "hashFull" : "cde1677eebbb9b7b19ae9fd5fa4a3a1330cc35b8",
         "hash" : "cde1677eebbb9b7",
@@ -668,14 +671,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump commons-lang3 from 3.9 to 3.11",
-        "messageBody" : "Bumps commons-lang3 from 3.9 to 3.11.\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>",
-        "messageTitle" : "build(deps): bump commons-lang3 from 3.9 to 3.11"
+        "messageTitle" : "build(deps): bump commons-lang3 from 3.9 to 3.11",
+        "messageBody" : "Bumps commons-lang3 from 3.9 to 3.11.\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>"
       }, {
         "hashFull" : "bc21b27492af976c4e2caaa5529de8a43921cb29",
         "hash" : "bc21b27492af976",
@@ -712,14 +715,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump gradle-wrapper from 6.3 to 6.5.1",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump gradle-wrapper from 6.3 to 6.5.1"
+        "messageTitle" : "build(deps): bump gradle-wrapper from 6.3 to 6.5.1",
+        "messageBody" : ""
       }, {
         "hashFull" : "fe16f20c3d42e0b4dacd26d08c8640cd162e9826",
         "hash" : "fe16f20c3d42e0b",
@@ -756,14 +759,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump team.yi.semantic-gitlog from 0.5.3 to 0.5.13",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump team.yi.semantic-gitlog from 0.5.3 to 0.5.13"
+        "messageTitle" : "build(deps): bump team.yi.semantic-gitlog from 0.5.3 to 0.5.13",
+        "messageBody" : ""
       }, {
         "hashFull" : "ecec3482347a0daa34e96a6d5d17ed846be9591c",
         "hash" : "ecec3482347a0da",
@@ -800,14 +803,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump io.freefair.lombok from 5.1.0 to 5.2.1",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump io.freefair.lombok from 5.1.0 to 5.2.1"
+        "messageTitle" : "build(deps): bump io.freefair.lombok from 5.1.0 to 5.2.1",
+        "messageBody" : ""
       }, {
         "hashFull" : "52645c6f2c3e10324cde853d2e290bfdbf971370",
         "hash" : "52645c6f2c3e103",
@@ -844,14 +847,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump junit-jupiter from 5.6.2 to 5.7.0",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump junit-jupiter from 5.6.2 to 5.7.0"
+        "messageTitle" : "build(deps): bump junit-jupiter from 5.6.2 to 5.7.0",
+        "messageBody" : ""
       }, {
         "hashFull" : "4c8ac6353e0b814515fb4e5f565e0d38220a2be1",
         "hash" : "4c8ac6353e0b814",
@@ -888,14 +891,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump checkstyle from 8.30 to 8.36.1",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump checkstyle from 8.30 to 8.36.1"
+        "messageTitle" : "build(deps): bump checkstyle from 8.30 to 8.36.1",
+        "messageBody" : ""
       }, {
         "hashFull" : "b01c82ffb561a90ced774dbb9a3fa7e26e8d0998",
         "hash" : "b01c82ffb561a90",
@@ -932,14 +935,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "deps",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump pmd from 6.22.0 to 6.27.0",
-        "messageBody" : "",
-        "messageTitle" : "build(deps): bump pmd from 6.22.0 to 6.27.0"
+        "messageTitle" : "build(deps): bump pmd from 6.22.0 to 6.27.0",
+        "messageBody" : ""
       }, {
         "hashFull" : "dea20fc11e39704355ec887dce2b077b7f48b191",
         "hash" : "dea20fc11e39704",
@@ -976,14 +979,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "build",
-        "rawCommitScope" : "gradle",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "gradle",
         "rawCommitSubject" : "bumped gradle version from 6.5.1 to 6.6.1",
-        "messageBody" : "",
-        "messageTitle" : "build(gradle): bumped gradle version from 6.5.1 to 6.6.1"
+        "messageTitle" : "build(gradle): bumped gradle version from 6.5.1 to 6.6.1",
+        "messageBody" : ""
       } ]
     }, {
       "title" : "Continuous Integration",
@@ -1023,14 +1026,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "ci",
-        "rawCommitScope" : "github",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "github",
         "rawCommitSubject" : "add github workflows",
-        "messageBody" : "",
-        "messageTitle" : "ci(github): add github workflows"
+        "messageTitle" : "ci(github): add github workflows",
+        "messageBody" : ""
       }, {
         "hashFull" : "196067ab52e18c01039868c42bdf9ffad4adc00e",
         "hash" : "196067ab52e18c0",
@@ -1067,14 +1070,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "ci",
-        "rawCommitScope" : "github",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "github",
         "rawCommitSubject" : "update github workflows",
-        "messageBody" : "",
-        "messageTitle" : "ci(github): update github workflows"
+        "messageTitle" : "ci(github): update github workflows",
+        "messageBody" : ""
       }, {
         "hashFull" : "ae49953b2b8c9c31486b0d05814e421e5aaa0284",
         "hash" : "ae49953b2b8c9c3",
@@ -1111,14 +1114,14 @@
         "breakingChange" : false,
         "deprecated" : false,
         "commitIssue" : null,
-        "localeMap" : null,
         "rawCommitType" : "ci",
-        "rawCommitScope" : "travis",
+        "localeMap" : null,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
+        "rawCommitScope" : "travis",
         "rawCommitSubject" : "delete git pushback",
-        "messageBody" : "",
-        "messageTitle" : "ci(travis): delete git pushback"
+        "messageTitle" : "ci(travis): delete git pushback",
+        "messageBody" : ""
       } ]
     } ]
   }, {

@@ -1,15 +1,19 @@
 # Changelog
 
-## 0.5.19 (2023-06-02)
+## 0.5.18 (2023-06-02)
+
+### Styles
+
+- code cleanup ([fd0a4bbd](https://github.com/semantic-gitlog/semantic-commit/commit/fd0a4bbd3b84e9da3ef4c22ecdfd3979f1b467a6))
+
 
 ### Build System
 
-- **deps**: bump gradle-wrapper from 6.3 to 6.5.1 ([9469b81a](https://github.com/semantic-gitlog/semantic-commit/commit/9469b81a1fd0be5281afbc53ad303b67d042066f))
-- **deps**: bump io.freefair.lombok from 5.2.1 to 5.3.3.3 ([1e44bb54](https://github.com/semantic-gitlog/semantic-commit/commit/1e44bb54966a2a33e131aad77f6cd4c5881e354b))
-- **deps**: bump commons-lang3 from 3.11 to 3.12.0 ([5e46bd58](https://github.com/semantic-gitlog/semantic-commit/commit/5e46bd58aa3198c02e62d900dc0b515cfc2bc55a))
-- **deps**: bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17 ([97a24921](https://github.com/semantic-gitlog/semantic-commit/commit/97a2492160e3386fa2f01ac56f825f194d1e361c))
-- **deps**: bump slf4j from 1.7.30 to 2.0.7 ([8a899add](https://github.com/semantic-gitlog/semantic-commit/commit/8a899add065f5aab8a68f21b8283b044c97bdddf))
-- **deps**: bump junit-jupiter from 5.7.0 to 5.9.3 ([4d0d77f7](https://github.com/semantic-gitlog/semantic-commit/commit/4d0d77f7206ec9be1f97ef101b24a8ce6712953f))
+- **deps**: bump io.freefair.lombok from 5.2.1 to 5.3.3.3 ([f51c227c](https://github.com/semantic-gitlog/semantic-commit/commit/f51c227c2bf904646a36378b94aa03fc49e23409))
+- **deps**: bump commons-lang3 from 3.11 to 3.12.0 ([d33b2af0](https://github.com/semantic-gitlog/semantic-commit/commit/d33b2af0c771b23d8e74ccff290d6c6d46188bcc))
+- **deps**: bump junit-jupiter from 5.7.0 to 5.9.3 ([8734ef97](https://github.com/semantic-gitlog/semantic-commit/commit/8734ef9789f4c98652a818ecf1a91846903cde70))
+- **deps**: bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17 ([42554c02](https://github.com/semantic-gitlog/semantic-commit/commit/42554c02c633b149f037665b1550670ae0f4e4c3))
+- **deps**: bump slf4j from 1.7.30 to 2.0.7 ([3aa43ad6](https://github.com/semantic-gitlog/semantic-commit/commit/3aa43ad662e335a09301291d83b780a50c19cc43))
 
 
 ## 0.5.13 (2020-09-23)

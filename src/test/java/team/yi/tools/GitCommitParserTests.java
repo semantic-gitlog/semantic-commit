@@ -4,14 +4,19 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.DateUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import team.yi.tools.semanticcommit.model.*;
+import team.yi.tools.semanticcommit.model.GitCommit;
+import team.yi.tools.semanticcommit.model.GitDate;
+import team.yi.tools.semanticcommit.model.GitPersonIdent;
+import team.yi.tools.semanticcommit.model.ReleaseCommit;
 import team.yi.tools.semanticcommit.parser.CommitParser;
 import team.yi.tools.semanticcommit.parser.CommitParserSettings;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.ParseException;
 import java.util.Date;
 

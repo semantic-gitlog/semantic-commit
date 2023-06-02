@@ -60,4 +60,3 @@ public class ParseException extends RuntimeException {
         this.column = column;
     }
 }
-

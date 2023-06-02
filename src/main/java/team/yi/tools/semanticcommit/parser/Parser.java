@@ -2,7 +2,9 @@ package team.yi.tools.semanticcommit.parser;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import team.yi.tools.semanticcommit.parser.lexer.*;
+import team.yi.tools.semanticcommit.parser.lexer.Lexer;
+import team.yi.tools.semanticcommit.parser.lexer.Token;
+import team.yi.tools.semanticcommit.parser.lexer.TokenKind;
 
 import java.text.MessageFormat;
 import java.util.Objects;

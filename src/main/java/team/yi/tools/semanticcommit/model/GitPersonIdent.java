@@ -25,4 +25,3 @@ public class GitPersonIdent implements Serializable {
         this.email = email;
     }
 }
-

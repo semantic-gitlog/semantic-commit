@@ -3,8 +3,15 @@ package team.yi.tools.semanticcommit.parser;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import team.yi.tools.semanticcommit.CommitUtils;
-import team.yi.tools.semanticcommit.model.*;
-import team.yi.tools.semanticcommit.parser.lexer.*;
+import team.yi.tools.semanticcommit.model.GitCommit;
+import team.yi.tools.semanticcommit.model.IssueRef;
+import team.yi.tools.semanticcommit.model.MentionRef;
+import team.yi.tools.semanticcommit.model.ReleaseCommit;
+import team.yi.tools.semanticcommit.model.ReleaseCommitLocale;
+import team.yi.tools.semanticcommit.parser.lexer.CommitLexer;
+import team.yi.tools.semanticcommit.parser.lexer.LexerConstants;
+import team.yi.tools.semanticcommit.parser.lexer.Token;
+import team.yi.tools.semanticcommit.parser.lexer.TokenKind;
 
 import java.util.List;
 import java.util.Locale;

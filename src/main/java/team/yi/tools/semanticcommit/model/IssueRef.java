@@ -42,4 +42,3 @@ public class IssueRef implements Serializable {
         this.action = action;
     }
 }
-

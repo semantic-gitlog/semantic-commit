@@ -1,6 +1,18 @@
 # 更新日志
 
-## 0.5.13 (Unreleased, 2020-09-23)
+## 0.5.19 (Unreleased, 2023-06-02)
+
+### Build System
+
+- **依赖项**: bump gradle-wrapper from 6.3 to 6.5.1 ([9469b81a](https://github.com/semantic-gitlog/semantic-commit/commit/9469b81a1fd0be5281afbc53ad303b67d042066f))
+- **依赖项**: bump io.freefair.lombok from 5.2.1 to 5.3.3.3 ([1e44bb54](https://github.com/semantic-gitlog/semantic-commit/commit/1e44bb54966a2a33e131aad77f6cd4c5881e354b))
+- **依赖项**: bump commons-lang3 from 3.11 to 3.12.0 ([5e46bd58](https://github.com/semantic-gitlog/semantic-commit/commit/5e46bd58aa3198c02e62d900dc0b515cfc2bc55a))
+- **依赖项**: bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17 ([97a24921](https://github.com/semantic-gitlog/semantic-commit/commit/97a2492160e3386fa2f01ac56f825f194d1e361c))
+- **依赖项**: bump slf4j from 1.7.30 to 2.0.7 ([8a899add](https://github.com/semantic-gitlog/semantic-commit/commit/8a899add065f5aab8a68f21b8283b044c97bdddf))
+- **依赖项**: bump junit-jupiter from 5.7.0 to 5.9.3 ([4d0d77f7](https://github.com/semantic-gitlog/semantic-commit/commit/4d0d77f7206ec9be1f97ef101b24a8ce6712953f))
+
+
+## 0.5.13 (2020-09-23)
 
 ### Styles
 

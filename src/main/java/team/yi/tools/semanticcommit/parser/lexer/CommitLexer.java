@@ -286,7 +286,7 @@ public class CommitLexer extends Lexer {
                 case LexerConstants.OPENING_BRACKET: {
                     final String lang = this.pickTo(1, LexerConstants.CLOSING_BRACKET);
 
-                    if (lang.length() > 0) {
+                    if (!lang.isEmpty()) {
                         this.consume(lang.length() + 2);
                         this.readWhitespace();
 
@@ -300,7 +300,7 @@ public class CommitLexer extends Lexer {
                     if (LexerConstants.ASTERISK == ch1 && LexerConstants.OPENING_BRACKET == ch2) {
                         final String lang = this.pickTo(3, LexerConstants.CLOSING_BRACKET);
 
-                        if (lang.length() > 0) {
+                        if (!lang.isEmpty()) {
                             this.consume(lang.length() + 6);
                             this.readWhitespace();
 

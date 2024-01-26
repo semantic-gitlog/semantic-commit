@@ -16,7 +16,6 @@ import team.yi.tools.semanticcommit.parser.lexer.TokenKind;
 import java.util.List;
 import java.util.Locale;
 
-@SuppressWarnings("PMD.TooManyMethods")
 @Slf4j
 public class CommitParser extends Parser<ReleaseCommit, CommitLexer> {
     private final CommitParserSettings settings;

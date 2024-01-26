@@ -9,7 +9,6 @@ import java.nio.file.Path;
 
 import static team.yi.tools.semanticcommit.parser.lexer.LexerMode.text;
 
-@SuppressWarnings("PMD.AvoidLiteralsInIfCondition")
 public class ScopeProfileLexer extends Lexer {
     public ScopeProfileLexer(final Path path) throws IOException {
         super(path);

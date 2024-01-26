@@ -13,7 +13,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
-@SuppressWarnings("PMD.TooManyMethods")
 public abstract class Lexer {
     protected final String contents;
     protected LexerMode currentMode;
@@ -38,7 +37,6 @@ public abstract class Lexer {
         this(file, StandardCharsets.UTF_8);
     }
 
-    @SuppressWarnings("PMD.ConstructorCallsOverridableMethod")
     protected Lexer(final File file, final Charset charset) throws IOException {
         this.contents = new String(Files.readAllBytes(file.toPath()), charset).trim();
         this.length = this.contents.length();
@@ -46,7 +44,6 @@ public abstract class Lexer {
         this.reset();
     }
 
-    @SuppressWarnings("PMD.ConstructorCallsOverridableMethod")
     protected Lexer(final String contents) {
         this.contents = contents;
         this.length = this.contents.length();

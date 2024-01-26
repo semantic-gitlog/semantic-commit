@@ -14,7 +14,6 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.Locale;
 
-@SuppressWarnings("PMD.TooManyMethods")
 public class CommitLexer extends Lexer {
     private final List<String> closeIssueActions;
 

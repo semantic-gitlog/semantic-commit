@@ -10,7 +10,7 @@ plugins {
 
 group = 'team.yi.tools'
 description = 'A toolkit for parsing or check `Conventional Commits`.'
-version = '0.5.19'
+version = '0.5.27'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
@@ -47,6 +47,7 @@ tasks.withType(JavaCompile) {
 }
 
 java {
+    withJavadocJar()
     withSourcesJar()
 }
 

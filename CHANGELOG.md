@@ -1,6 +1,25 @@
 # Changelog
 
-## 0.5.18 (2023-06-02)
+## 0.5.27 (2024-01-26)
+
+### Styles
+
+- code cleanup ([8b359869](https://github.com/semantic-gitlog/semantic-commit/commit/8b359869eb0e3dadd28da2cfc79f7ef40a92b01c))
+
+
+### Build System
+
+- **deps**: bump io.freefair.lombok from 5.3.3.3 to 8.4 ([0978216d](https://github.com/semantic-gitlog/semantic-commit/commit/0978216d736a268b909f04e5c35b6361be8904b2))
+- **deps**: bump team.yi.semantic-gitlog from 0.5.17 to 0.6.5 ([a8cbca88](https://github.com/semantic-gitlog/semantic-commit/commit/a8cbca883d96d504057bdce62ec5cd45efa0a042))
+- **deps**: bump commons-lang3 from 3.12.0 to 3.14.0 ([1069b4a8](https://github.com/semantic-gitlog/semantic-commit/commit/1069b4a851eefa1210d18553adad8593366be114))
+- **deps**: bump slf4j from 2.0.7 to 2.0.11 ([94e09520](https://github.com/semantic-gitlog/semantic-commit/commit/94e09520d443c12d7a5e20412d0ec50fee67ac41))
+- **deps**: bump junit-jupiter from 5.9.3 to 5.10.1 ([83b1a8dc](https://github.com/semantic-gitlog/semantic-commit/commit/83b1a8dcffe0a28cc3d5403446bed0b90986c3b3))
+- **gradle**: bumped gradle version from 6.6.1 to 8.5 ([da554927](https://github.com/semantic-gitlog/semantic-commit/commit/da5549275964f5598333e7846d6bd6f62fb9f592))
+- **gradle**: remove plugin `pmd` ([1b44b954](https://github.com/semantic-gitlog/semantic-commit/commit/1b44b9541456ff83d62ea3a2908237e57cf0e8a7))
+- **gradle**: remove plugin `checkstyle` ([0284c4fe](https://github.com/semantic-gitlog/semantic-commit/commit/0284c4fe7fe5ff5d681a8eeb62fe1f5d164ff921))
+
+
+## 0.5.19 (2023-06-02)
 
 ### Styles
 
